@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Got Memes?</title>
+    <link rel="stylesheet" href="meme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <form id="memeForm">
+        <h3>Create a Meme</h3>
+        <label>
+            Photo URL:
+            <input type="url" name="photoURL" clase="memeFormInput">
+        </label>
+        <label>
+            Upper Text:
+            <input name="upperText" class="memeFormInput">
+        </label>
+        <label>
+            Lower Text:
+            <input name="lowerText" class="memeFormInput">
+        </label>
+        <button>CREATE</button>
+    </form>
+
+    <div id="memeDisplay">
+        <h1>Meme Board</h1>
+        <div id="memeWall">
+            </div>
+    </div>
+
+    <script src="meme.js"></script>
+</body>
+
+</html>
